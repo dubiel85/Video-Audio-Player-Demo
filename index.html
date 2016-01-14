@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Video and Audio - Demo</title>
+        <link href="css/style.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <div>
+            <h1>Audio and Video - Demo</h1>
+        </div>
+        <div class="main">
+            <div>
+                <div>
+                    <h3>Set video source to Play</h3>
+                </div>
+                <div>
+                    <input type="text" id="videopath" value="" placeholder="Path">
+                </div>
+                <div>
+                    <button id="videoplay">Play</button>
+                </div>
+            </div>
+            <div class="squared" id="squared">
+                <video controls id="video1">
+                    <source id="videoconsole" src="" type="video/mp4">
+                </video>
+            </div>
+            <div>
+                <audio controls id="audio1">
+                    <source id="audioconsole" src="" type="audio/mp3">
+                </video>
+            </div>
+            <div>
+                <div>
+                    <h3>Set audio source to Play</h3>
+                </div>
+                <div>
+                    <input type="text" id="audiopath" value="" placeholder="Path">
+                </div>
+                <div>
+                    <button id="audioplay">Play</button>
+                </div>
+            </div>
+        </div>
+        
+        
+        
+        <script src="js/videoaudio.js"></script>
+    </body>
+</html>

@@ -1,0 +1,19 @@
+h1 {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.main {
+    display: inline-block;
+    text-align: center;
+    font-family: cursive;
+    width: 100%;
+}
+
+.squared {
+    display: inline-block;
+}
+
+.squared .hidden {
+    display: none;
+}
